@@ -1,0 +1,5 @@
+windows:
+  - tabs:
+    - {} # First tab: open to default shell
+    - {} # Second tab: open to default shell
+    - { command: bash } # Third tab: open to bash shell
