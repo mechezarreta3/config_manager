@@ -1,0 +1,20 @@
+# --- Zsh Files ---
+# Ignore Zsh history and session files (which are auto-generated)
+.zsh_history
+.zsh_sessions
+
+# Optionally ignore backup files related to Zsh config if they exist
+.zshrc.backup
+*~
+
+# --- Ghostty Files ---
+# Ignore Ghostty log files (adjust the filenames based on your setup)
+ghostty.log
+ghostty-*.log
+
+# --- General Log Files ---
+# Ignore all log files across the repository
+*.log
+
+# Ignore entire logs directory if you have one
+logs/
