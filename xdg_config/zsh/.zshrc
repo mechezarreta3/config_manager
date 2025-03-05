@@ -46,9 +46,12 @@ export PATH=$PATH:$HOME/bin/configs
 export PATH=$PATH:$HOME/bin/sdks
 export PATH=$PATH:$HOME/.local/bin
 
-# Go Paths
-export PATH=$PATH:$HOME/go
-export PATH=$PATH:$HOME/go/bin
+# Go Project Paths
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH
+export PATH=$PATH:$GOPATH/bin
+# Go PATH
+export PATH=$PATH:/usr/local/go/bin
 
 # Terminal Start ASCII
 # Set text color to the approximated foam blue (256-color code 153)
